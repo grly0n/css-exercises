@@ -24,3 +24,30 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.left-links {
+  padding-left: 16px;
+}
+
+.right-links {
+  padding-right: 16px;
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+}
